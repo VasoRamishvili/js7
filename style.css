@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+}
+.sec-1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+.first-acord{
+    width: 600px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.ddiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h33{
+    margin-top: 30px;
+    display: none;
+}
+.h3d{
+    display: block;
+    
+}
+
+.rotate{
+    transform: rotate(180deg);
+    transition: transform 0.5s; 
+}
